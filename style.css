@@ -1,20 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
+
 }
 
 body{
     background-image: url(./images/Nostalgic-Wallpapers-Top-Free-Nostalgic-Backgrounds-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     
 }
 
 .container{
     width: 80%;
-    height: 95vh;
+    height: 100vh;
     margin: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    
 }
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(10, 47, 116, 0.6));
@@ -58,4 +62,27 @@ body{
     text-decoration: none;
     color: magenta;
     font-size: 15px;
+}
+
+.main{
+    padding: 3%;
+    
+}
+
+.mainText {
+    /* border: 2px red solid; */
+    width: 100%;
+    
+}
+.mainText h2{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+}
+.main img{
+    width: 25%;
+}
+.main section{
+    display: flex;
+    padding: 5px;
 }
