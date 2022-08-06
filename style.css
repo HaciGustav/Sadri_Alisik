@@ -1,4 +1,5 @@
 *{
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -9,13 +10,13 @@ body{
     background-image: url(./images/Nostalgic-Wallpapers-Top-Free-Nostalgic-Backgrounds-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 
 .container{
     width: 80%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
     
@@ -25,7 +26,7 @@ body{
     
 }
 .logo{
-    width: 100px;
+    width: 150px;
     margin: 5px 20px;
     border-radius: 50px;
 }
@@ -48,7 +49,8 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 150px;
+    /* height: 100%; */
 }
 .navbar ul {
     text-decoration: none;
@@ -78,11 +80,26 @@ body{
     /* border: 2px solid red; */
     width: 60%;
     margin: auto;
+    padding: 20px;
 }
 .main img{
     width: 25%;
 }
-.main section{
+
+.sections{
+    padding: 20px;
+}
+.sections section{
     display: flex;
     padding: 5px;
+}
+
+.sections p{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth{
+    background-image: linear-gradient(rgba(240, 240, 240, 0.4),rgba(240, 240, 240, 0.2));
 }
