@@ -111,3 +111,6 @@ section{
     background-image: linear-gradient(rgba(240, 240, 240, 0),rgba(240, 240, 240, 0.3));
     color: #fff;
 }
+.first{
+    border: 1px solid red;
+}
