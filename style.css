@@ -88,9 +88,10 @@ color: #fff3e1;
 }
 .mainText h2{
     /* border: 2px solid red; */
-    width: 60%;
+    width: 80%;
     margin: auto;
-    padding: 20px;
+    /* padding: 10px; */
+    font-size: 30px;
 }
 .sections{
     padding:0 60px;
@@ -133,4 +134,16 @@ section{
 }
 .AGI1{
     width: 25%;
+}
+
+.events{
+    font-size: 30px;
+}
+
+.events, .events a{
+    display:contents;
+}
+/*alinti isareti*/
+span{
+    font-size: 80px;
 }
