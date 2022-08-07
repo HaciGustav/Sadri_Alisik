@@ -7,7 +7,8 @@
 }
 
 body{
-    background-image: url(./images/Nostalgic-Wallpapers-Top-Free-Nostalgic-Backgrounds-.jpg);
+    /* background-image: url(./images/Nostalgic-Wallpapers-Top-Free-Nostalgic-Backgrounds-.jpg); */
+    background-image: url(./images/1960larda-galata-koprusu-1546.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
@@ -18,7 +19,7 @@ body{
     width: 80%;
     /* height: 100vh; */
     margin: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
     
 }
 .header {
@@ -78,7 +79,9 @@ color: #fff3e1;
 .mainText {
     /* border: 2px red solid; */
     width: 100%;
-    
+    padding: 20px;
+    background-image: linear-gradient(rgba(240, 240, 240, 0),rgba(240, 240, 240, 0.2));
+    color: #fff;
 }
 .mainText h2{
     /* border: 2px solid red; */
@@ -104,6 +107,7 @@ color: #fff3e1;
     justify-content: space-between;
 }
 
-.fourth{
-    background-image: linear-gradient(rgba(240, 240, 240, 0.4),rgba(240, 240, 240, 0));
+section{
+    background-image: linear-gradient(rgba(240, 240, 240, 0),rgba(240, 240, 240, 0.3));
+    color: #fff;
 }
