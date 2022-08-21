@@ -28,11 +28,36 @@ body{
    
     
 }
-.logo{
-    width: 150px;
-    margin: 5px 20px;
-    border-radius: 50px;
+.all{
+    background-image: url(./images/Download.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 10rem;
+    height: 8rem;
+    /* margin: 0.5rem 2rem; */
+    border:1px solid rgb(14, 72, 199);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
 }
+.home{
+    /* border: 2px solid black; */
+    width: 4rem;
+    height: 4rem;
+}
+.all:hover {
+    transform: rotateX(30deg) rotateY(-30deg);
+    transition: 1s;
+
+}
+
+
+
+
+
+
+
 .logoDiv{
     display: flex;
 }
