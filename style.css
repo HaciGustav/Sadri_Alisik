@@ -147,3 +147,23 @@ section{
 span{
     font-size: 80px;
 }
+.article{
+    max-height: 17rem;
+}
+.first,
+.third{
+    border-radius: 0 0 5rem 0;
+}
+.second,
+.fourth{
+    border-radius: 0 0 0 5rem;
+}
+
+.navbar li{
+   
+}
+.navbar li:hover{
+    border-bottom: 3px solid #fff;
+    transform: rotate(360deg);
+    transition: 1.5s ;
+}
